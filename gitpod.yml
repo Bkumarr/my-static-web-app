@@ -2,6 +2,7 @@ image: node:alpine
 # Command to start on workspace startup (optional)
 tasks:
   - init: npm install
+    command: npm run dev
 
 # Ports to expose on workspace startup (optional)
 ports:
